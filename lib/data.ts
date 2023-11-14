@@ -46,8 +46,7 @@ export const experiencesData = [
   {
     title: "Bootcamp Full-Stack Henry",
     location: "Argentina",
-    description:
-      "Bootcamp de ",
+    description:"",
     icon: React.createElement(LuGraduationCap),
     date: "2022 Marzo - 2023 Noviembre",
   },
@@ -65,16 +64,18 @@ export const projectsData = [
   {
     title: "Access Bank",
     description:
-      "AccessBank es un banco totalmente digital que ofrece servicios financieros e innovadores fáciles de usar desde cualquier dispositivo.",
+      "AccessBank es un banco totalmente digital que ofrece servicios financieros e innovadores.",
     tags: ["React","Redux", "Express", "Sequelize", "PostgreSQL", "Tailwind"],
     imageUrl: accesbank,
+    url:"https://github.com/No-Country/c12-41-m-react-agregarback",
   },
   {
     title: "Listo para llevar",
     description:
-      "Listo para Llevar es una aplicación web destinada a conectar negocios con excedentes alimentarios con consumidores interesados en adquirir dichos productos.",
+      "Listo para Llevar es una aplicación web destinada a conectar negocios con excedentes alimentarios.",
     tags: ["React", "Redux", "PHP", "Laravel", "Tailwind"],
     imageUrl: listopllevar,
+    url:"https://github.com/No-Country/s10-10-m-php-react-amazon",
   },
   {
     title: "Canchas Ya",
@@ -82,6 +83,7 @@ export const projectsData = [
       "Proyecto final de Henry, aplicación para crear, alquilar y reseñar canchas de diferentes deportes en distintas ciudades",
     tags: ["React", "Redux","Express", "SQL", "Tailwind", "Mercado Pago"],
     imageUrl: canchasya,
+    url:"https://github.com/CanchaYAPF/CanchaYA",
   },
 ] as const;
 
