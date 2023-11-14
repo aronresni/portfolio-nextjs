@@ -25,7 +25,7 @@ export default function About() {
         <span className="font-medium">
          Mi stack principal es React, Next.js, Node.js, and PostgreeSQL. {" "}
         </span>
-        Estoy algo familiarizado con Typescript. Estoy constantemente aprendiendo nuevos lenguahes. Actualmente estoy buscando{" "}
+      Estoy constantemente aprendiendo nuevos lenguahes. Actualmente estoy buscando{" "}
         <span className="font-medium">un posicion full-time</span> como desarrollador Trainee/Junior!
       </p>
     </motion.section>

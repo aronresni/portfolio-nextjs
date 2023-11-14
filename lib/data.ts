@@ -3,7 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import accesbank from "@/public/acces-bank.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import listopllevar from "@/public/pedido.png";
+import canchasya from "@/public/canchaya.png"
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -35,52 +36,52 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Carrera de Desarrollo Frontend React",
+    title: "Carrera de Desarrollo Front-end React",
     location: "Argentina",
     description:
       "",
     icon: React.createElement(LuGraduationCap),
-    date: "Enero",
+    date: "2022 Mayo - 2023 Enero",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Bootcamp Full-Stack Henry",
+    location: "Argentina",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Bootcamp de ",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022 Marzo - 2023 Noviembre",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Desarrollador Full-Stack No-Country",
+    location: "Remoto, Argentina",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Contrato de practicas en No-Country donde soy desarrollador full-stack, trabajando con tecnologias como React en el front-end y Node.js en el back-end.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 Mayo - 2023 Noviembre",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Access Bank",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "AccessBank es un banco totalmente digital que ofrece servicios financieros e innovadores fáciles de usar desde cualquier dispositivo.",
+    tags: ["React","Redux", "Express", "Sequelize", "PostgreSQL", "Tailwind"],
     imageUrl: accesbank,
   },
   {
-    title: "rmtDev",
+    title: "Listo para llevar",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Listo para Llevar es una aplicación web destinada a conectar negocios con excedentes alimentarios con consumidores interesados en adquirir dichos productos.",
+    tags: ["React", "Redux", "PHP", "Laravel", "Tailwind"],
+    imageUrl: listopllevar,
   },
   {
-    title: "Word Analytics",
+    title: "Canchas Ya",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Proyecto final de Henry, aplicación para crear, alquilar y reseñar canchas de diferentes deportes en distintas ciudades",
+    tags: ["React", "Redux","Express", "SQL", "Tailwind", "Mercado Pago"],
+    imageUrl: canchasya,
   },
 ] as const;
 
@@ -88,9 +89,7 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
   "React",
-  "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
