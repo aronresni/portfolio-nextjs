@@ -54,7 +54,7 @@ export const experiencesData = [
     title: "Desarrollador Full-Stack No-Country",
     location: "Remoto, Argentina",
     description:
-      "Contrato de practicas en No-Country donde soy desarrollador full-stack, trabajando con tecnologias como React en el front-end y Node.js en el back-end.",
+      "Contrato de practicas en No-Country donde trabajaba como desarrollador full-stack, trabajando con tecnologias como React en el front-end y Node.js en el back-end.",
     icon: React.createElement(FaReact),
     date: "2023 Mayo - 2023 Noviembre",
   },
